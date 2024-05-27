@@ -4,6 +4,12 @@ Pinned Links Manager is a simple web application designed to help you manage and
 
 ![Pinned Links Manager Preview](images/preview.png)
 
+## Version
+
+Current Version: [v0.1.0-beta](https://github.com/Deeptanu2005/Pinned-Links-Manager/releases/tag/v0.1.0-beta)
+
+**Full Changelog**: https://github.com/Deeptanu2005/Pinned-Links-Manager/commits/v0.1.0-beta
+
 ## Features
 
 - **Add Links:** Easily add new links by pasting the URL and providing a name and category.
