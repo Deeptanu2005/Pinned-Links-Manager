@@ -4,9 +4,9 @@
 
 We release patches for security vulnerabilities. Which versions are eligible for receiving such patches depends on the vulnerability severity.
 
-| Version     | Supported          |
-| ----------- | ------------------ |
-| 0.1.0-beta  | :white_check_mark: |
+| Version | Supported          |
+| ------- | ------------------ |
+| 0.2.1   | :white_check_mark: |
 
 ## Reporting a Vulnerability
 
