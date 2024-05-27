@@ -123,17 +123,23 @@ main {
 }
 
 #new-category {
-    padding: 10px;
+    padding: 10px 35px 10px 10px;
     font-size: 1em;
     border: 2px solid #333;
     border-radius: 5px;
     appearance: none;
     -webkit-appearance: none;
     -moz-appearance: none;
-    background: #fff url('https://cdn.iconscout.com/icon/free/png-256/drop-down-arrow-6-46103.png') no-repeat right 10px center;
+    background: #fff url('images/Down\ Arrow.png') no-repeat left 12px center;
     background-size: 20px;
     background-position-x: calc(100% - 15px);
     cursor: pointer;
+}
+
+#new-category:hover {
+    background: #fff url('images/Down\ Arrow.gif') no-repeat left 12px center;
+    background-size: 20px;
+    background-position-x: calc(100% - 15px);
 }
 
 #new-category:focus {
