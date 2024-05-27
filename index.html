@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deeptanu Sen's Pinned Links</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Deeptanu Sen's Pinned Links</h1>
+            <div class="search-bar">
+                <input type="text" id="search" placeholder="Search links...">
+            </div>
+            <div class="add-link">
+                <input type="text" id="new-link" placeholder="Paste new link here...">
+                <input type="text" id="new-name" placeholder="Name...">
+                <select id="new-category">
+                    <option value="">Select category...</option>
+                    <option value="educational">Educational</option>
+                    <option value="professional">Professional</option>
+                </select>
+                <button onclick="addLink()">Add Link</button>
+            </div>
+        </header>
+        <main>
+            <h2 id="fav-head">Favorites</h2>
+            <div class="links" id="favorite-links">
+                <!-- Favorite links will be added here -->
+            </div>
+            <h2>Educational Websites</h2>
+            <div class="links" id="educational-links">
+                <!-- Educational links will be added here -->
+            </div>
+            <h2>Professional Websites</h2>
+            <div class="links" id="professional-links">
+                <!-- Professional links will be added here -->
+            </div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
