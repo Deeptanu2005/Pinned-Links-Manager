@@ -13,7 +13,7 @@ Current Version: [v0.1.0-beta](https://github.com/Deeptanu2005/Pinned-Links-Mana
 ## Features
 
 - **Add Links:** Easily add new links by pasting the URL and providing a name and category.
-- **Categorization:** Organize your links into educational, professional, or custom categories.
+- **Categorization:** Organize your links into educational and professional categories.
 - **Favorites:** Mark your favorite links for quick access.
 - **Search:** Find specific links quickly with the built-in search functionality.
 - **Responsive:** Responsive design ensures optimal viewing and interaction across various devices.
