@@ -6,9 +6,9 @@ Pinned Links Manager is a simple web application designed to help you manage and
 
 ## Version
 
-Current Version: [v0.1.0-beta](https://github.com/Deeptanu2005/Pinned-Links-Manager/releases/tag/v0.1.0-beta)
+Current Version: [v0.2.1](https://github.com/Deeptanu2005/Pinned-Links-Manager/releases/tag/v0.2.1)
 
-**Full Changelog**: https://github.com/Deeptanu2005/Pinned-Links-Manager/commits/v0.1.0-beta
+**Full Changelog**: https://github.com/Deeptanu2005/Pinned-Links-Manager/commits/v0.2.1
 
 ## Features
 
@@ -28,6 +28,10 @@ Current Version: [v0.1.0-beta](https://github.com/Deeptanu2005/Pinned-Links-Mana
 
 2. Open `index.html` in your web browser.
 
+## Deployment
+
+You can view the live version of the Pinned Links Manager at: https://deeptanu2005.github.io/Pinned-Links-Manager/
+
 ## Usage
 
 1. **Adding Links:**
@@ -43,9 +47,14 @@ Current Version: [v0.1.0-beta](https://github.com/Deeptanu2005/Pinned-Links-Mana
 3. **Searching:**
 - Use the search bar to filter links by name.
 
-## Beta Release
+## Stable Release
 
-This project is currently in beta. While it's fully functional, there may be occasional bugs or limitations. Your feedback is highly appreciated as we work towards a stable release.
+This project is currently in a stable release. It is fully functional, but as with any software, there may still be occasional bugs or limitations. Your feedback is highly appreciated as we continue to improve and expand the features.
+
+Current Version: [v0.2.1](https://github.com/Deeptanu2005/Pinned-Links-Manager/releases/tag/v0.2.1)
+
+**Full Changelog**: [View here](https://github.com/Deeptanu2005/Pinned-Links-Manager/commits/v0.2.1)
+
 
 ## Contributing
 
@@ -55,11 +64,23 @@ Contributions are welcome! If you have any ideas for improvements, new features,
 
 This project is licensed under the [MIT License](LICENSE).
 
+## Code of Conduct
+
+Please adhere to the project's [Code of Conduct](CODE_OF_CONDUCT.md) to maintain a welcoming and inclusive environment.
+
+## Security
+
+For information on reporting security vulnerabilities, please see our [Security Policy](SECURITY.md).
+
 ## Acknowledgements
 
-- Favicon generation powered by [Google Favicon API](https://www.google.com/s2/favicons?sz=64&domain_url={url})
-- Dropdown arrow icon by [Iconscout](https://iconscout.com/icon/drop-down-arrow-6)
+- Link favicon generation powered by **Google Favicon API**
+- Dropdown arrow icon by [Iconscout](https://iconscout.com/free-lottie-animation/down-arrow-8747212)
+- Icons by [Pixel perfect](https://www.freepik.com/search), [Freepik](https://www.freepik.com/search)
+- Favicon generated using [Real Favicon Generator](https://realfavicongenerator.net)
+- Icons and graphics edited using [Canva](https://www.canva.com)
 - Inspiration and guidance from [OpenAI](https://openai.com) and the developer community.
+
 
 ## Developer
 
