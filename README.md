@@ -5,6 +5,9 @@ Pinned Links Manager is a simple web application designed to help you manage and
 
 https://github.com/Deeptanu2005/Pinned-Links-Manager/assets/123863315/13ff653e-bd9e-425b-8c12-78d8ac5470a1
 
+#### YouTube Video
+
+If there is an issue playing the video from GitHub, you can watch it on YouTube: [Pinned Links Manager Tutorial](https://www.youtube.com/watch?v=TJANThy2PxI)
 
 ## Version
 
