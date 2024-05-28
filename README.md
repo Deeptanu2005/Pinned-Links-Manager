@@ -23,7 +23,7 @@ Current Version: [v0.2.1](https://github.com/Deeptanu2005/Pinned-Links-Manager/r
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/Pinned-Links-Manager.git
+   git clone https://github.com/Deeptanu2005/Pinned-Links-Manager.git
    ```
 
 2. Open `index.html` in your web browser.
