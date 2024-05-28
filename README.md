@@ -2,7 +2,9 @@
 
 Pinned Links Manager is a simple web application designed to help you manage and categorize your favorite links. Whether it's educational resources, professional websites, or any other URLs you frequently visit, this tool allows you to organize them efficiently.
 
-![Pinned Links Manager Preview](images/preview.png)
+
+https://github.com/Deeptanu2005/Pinned-Links-Manager/assets/123863315/13ff653e-bd9e-425b-8c12-78d8ac5470a1
+
 
 ## Version
 
