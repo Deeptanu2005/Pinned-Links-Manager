@@ -65,6 +65,8 @@ Current Version: [v0.2.1](https://github.com/Deeptanu2005/Pinned-Links-Manager/r
 
 Contributions are welcome! If you have any ideas for improvements, new features, or bug fixes, feel free to open an issue or submit a pull request.
 
+Please see our [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines on how to contribute to this project.
+
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
