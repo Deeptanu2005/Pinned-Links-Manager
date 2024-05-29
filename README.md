@@ -52,6 +52,10 @@ You can view the live version of the Pinned Links Manager at: https://deeptanu20
 3. **Searching:**
 - Use the search bar to filter links by name.
 
+## Documentation
+
+For detailed documentation and additional information, please visit our [Wiki](https://github.com/Deeptanu2005/Pinned-Links-Manager/wiki).
+
 ## Stable Release
 
 This project is currently in a stable release. It is fully functional, but as with any software, there may still be occasional bugs or limitations. Your feedback is highly appreciated as we continue to improve and expand the features.
