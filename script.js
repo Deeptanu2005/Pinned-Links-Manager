@@ -176,3 +176,4 @@ document.getElementById("search").addEventListener("input", function () {
 });
 
 renderLinks();
+
