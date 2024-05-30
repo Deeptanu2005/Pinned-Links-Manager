@@ -67,6 +67,7 @@ main {
     flex: 1;
     text-align: center;
     overflow-y: auto; /* Allow main content to scroll */
+    margin-bottom: 200px;
 }
 
 .links {
@@ -158,6 +159,10 @@ main {
 }
 
 footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
     flex-shrink: 0; /* Prevent footer from growing */
     background-color: #333;
     color: #fff;
