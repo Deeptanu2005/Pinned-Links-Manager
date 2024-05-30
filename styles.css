@@ -1,11 +1,13 @@
-body {
+html, body {
     font-family: 'Arial', sans-serif;
     background: #f0f0f0;
     margin: 0;
     padding: 0;
+    min-height: 100%; /* Ensure body stretches to at least full height */
 }
 
 .container {
+    width: 90%; /* Adjust container width */
     max-width: 1200px;
     margin: auto;
     padding: 20px;
@@ -62,7 +64,9 @@ h1 {
 }
 
 main {
+    flex: 1;
     text-align: center;
+    overflow-y: auto; /* Allow main content to scroll */
 }
 
 .links {
@@ -107,6 +111,7 @@ main {
     color: black;
     text-decoration: none;
 }
+
 .favorite-button {
     margin-left: auto;
     padding: 5px;
@@ -152,13 +157,15 @@ main {
     color: #333;
 }
 
-.heading-wrapper {
+footer {
+    flex-shrink: 0; /* Prevent footer from growing */
+    background-color: #333;
+    color: #fff;
     text-align: center;
-    margin-top: 20px;
+    padding: 20px 0;
 }
 
-.heading {
-    font-size: 1.5em;
-    color: #333;
-    margin-bottom: 10px;
+
+footer a {
+    color: #b4dae7;
 }
