@@ -165,7 +165,7 @@ footer {
     left: 0;
     right: 0;
     flex-shrink: 0; /* Prevent footer from growing */
-    background-color: #333;
+    background-color: #0e0e0e;
     color: #fff;
     text-align: center;
     padding: 20px 0;
