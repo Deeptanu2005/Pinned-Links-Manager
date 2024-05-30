@@ -90,6 +90,7 @@ For information on reporting security vulnerabilities, please see our [Security 
 - Icons by [Pixel perfect](https://www.freepik.com/search), [Freepik](https://www.freepik.com/search)
 - Favicon generated using [Real Favicon Generator](https://realfavicongenerator.net)
 - Icons and graphics edited using [Canva](https://www.canva.com)
+- Support provided by [Buy Me a Coffee](https://www.buymeacoffee.com)
 - Inspiration and guidance from [OpenAI](https://openai.com) and the developer community.
 
 
