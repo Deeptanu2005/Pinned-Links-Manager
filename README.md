@@ -13,7 +13,7 @@ If there is an issue playing the video from GitHub, you can watch it on YouTube:
 
 Current Version: [v0.2.1](https://github.com/Deeptanu2005/Pinned-Links-Manager/releases/tag/v0.2.1)
 
-**Full Changelog**: https://github.com/Deeptanu2005/Pinned-Links-Manager/commits/v0.2.1
+**Full Changelog**: [View here](https://github.com/Deeptanu2005/Pinned-Links-Manager/commits/v0.2.1)
 
 ## Features
 
@@ -25,17 +25,33 @@ Current Version: [v0.2.1](https://github.com/Deeptanu2005/Pinned-Links-Manager/r
 
 ## Installation
 
-1. Clone the repository:
+1. **Clone the repository:**
 
-   ```bash
+   ```
    git clone https://github.com/Deeptanu2005/Pinned-Links-Manager.git
    ```
+2. **Navigate to the project directory:**
+    ```
+    cd Pinned-Links-Manager
+    ```
+3. **Customize Your Application:**
 
-2. Open `index.html` in your web browser.
+- **Favicon Links:**
+  Replace the favicon links in the `<head>` section of `index.html` with your own favicon links.
+- **Open Graph Meta Tags:**
+  Replace the Open Graph meta tags in the `<head>` section with your own meta tags for better social media integration.
+- **Google Search Console:**
+  Replace the Google Search Console verification code with your own to verify ownership of the site.
+- **Buy Me a Coffee Widget:**
+  Replace the `data-id` attribute in the Buy Me a Coffee widget script with your own Buy Me a Coffee ID.
+
+Refer to the comments in the `index.html` file for specific locations to make these replacements.
+
+4. Open `index.html` in your web browser.
 
 ## Deployment
 
-You can view the live version of the Pinned Links Manager at: https://deeptanu2005.github.io/Pinned-Links-Manager/
+You can access the live version of [Pinned Links Manager](https://deeptanu2005.github.io/Pinned-Links-Manager/) deployed on GitHub Pages.
 
 ## Usage
 
