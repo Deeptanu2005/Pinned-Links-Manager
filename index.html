@@ -73,6 +73,9 @@
 <body>
     <div class="container">
         <header>
+             <!-- Tutorial Button -->
+             <button id="tutorial-button" onclick="showVideo()">Watch Tutorial</button>
+
             <h1>Your Pinned Links</h1>
             <div class="search-bar">
                 <input type="text" id="search" placeholder="Search links...">
@@ -85,7 +88,7 @@
                     <option value="educational">Educational</option>
                     <option value="professional">Professional</option>
                 </select>
-                <button onclick="addLink()">Add Link</button>
+                <button id="add-button" onclick="addLink()">Add Link</button>
             </div>
         </header>
         <main>
@@ -107,6 +110,15 @@
         <p>Developed by <a href="https://github.com/Deeptanu2005">Deeptanu Sen</a></p>
         <p>GitHub Repository: <a href="https://github.com/Deeptanu2005/Pinned-Links-Manager">Pinned Links Manager</a></p>
     </footer>
+
+    <!-- Video Overlay -->
+    <div id="video-overlay" class="overlay" style="display: none;">
+        <button onclick="closeVideo()" class="close-button">X</button>
+        <iframe id="tutorial-video" src="https://www.youtube.com/embed/TJANThy2PxI?autoplay=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </div>
+
+    <!-- JavaScript files -->
+    <script src="appFunctions.js" defer></script>
     <script src="script.js"></script>
 
     <!-- Buy Me a Coffee widget, replace with your own credentials -->

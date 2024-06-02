@@ -77,7 +77,6 @@ function createLinkHTML(link) {
   favoriteButton.classList.add("favorite-button");
   favoriteButton.style.marginLeft = "10px";
 
-
   removeLinkButton.style.padding = "8px";
   removeLinkButton.style.backgroundColor = "transparent";
   removeLinkButton.style.border = "none";
@@ -97,7 +96,7 @@ function createLinkHTML(link) {
   if (favorites.some((fav) => fav.url === link.url)) {
     favoriteButton.style.display = "none";
     favoriteButton.classList.add("active");
-    
+
     removeLinkButton.style.marginLeft = "auto";
   } else {
     favoriteButton.textContent = "Add to Favorites";
@@ -134,6 +133,8 @@ function addLink() {
     newNameInput.value = "";
     newCategoryInput.value = "";
     renderLinks();
+
+    
   } else {
     alert("Please fill all fields: URL, Name, and Category.");
   }
@@ -176,4 +177,3 @@ document.getElementById("search").addEventListener("input", function () {
 });
 
 renderLinks();
-
