@@ -1,7 +1,6 @@
 html,
 body {
   font-family: "Arial", sans-serif;
-  background: #f0f0f0;
   margin: 0;
   padding: 0;
   min-height: 100%; /* Ensure body stretches to at least full height */
@@ -19,10 +18,6 @@ header {
   margin-bottom: 40px;
 }
 
-h1 {
-  font-size: 2.5em;
-  color: #333;
-}
 
 .search-bar {
   margin-top: 20px;
@@ -33,13 +28,11 @@ h1 {
   font-size: 1.2em;
   width: 80%;
   max-width: 500px;
-  border: 2px solid #333;
   border-radius: 5px;
 }
 
 #search:focus {
   outline: none;
-  border-color: #007bff;
 }
 .add-link {
   margin-top: 20px;
@@ -51,7 +44,6 @@ h1 {
   font-size: 1.2em;
   width: 70%;
   max-width: 400px;
-  border: 2px solid #333;
   border-radius: 5px;
 }
 
@@ -60,8 +52,6 @@ h1 {
   padding: 12px;
   font-size: 1.2em;
   border: none;
-  background: #000000;
-  color: white;
   border-radius: 5px;
   cursor: pointer;
 }
@@ -84,12 +74,11 @@ main {
 }
 
 .link-item {
-  background: #fff;
-  color: #333;
   padding: 20px;
   margin: 10px;
   text-decoration: none;
   border-radius: 8px;
+  background-color: #5386ff;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease;
   display: flex;
@@ -103,14 +92,11 @@ main {
 }
 
 .link-item:hover {
-  background: #000000;
-  color: #fff;
   transform: translateY(-5px);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 .link-item:hover a {
-  color: #fff;
   text-decoration: underline;
   transition: all 0.3s ease;
 }
@@ -123,7 +109,6 @@ main {
 .favorite-button {
   margin-left: auto;
   padding: 5px;
-  background: #ffcc00;
   border: none;
   cursor: pointer;
 }
@@ -137,19 +122,16 @@ main {
 
 #new-link:focus {
   outline: none;
-  border-color: #007bff;
 }
 
 #new-name:focus {
   outline: none;
-  border-color: #007bff;
 }
 
 #new-category {
   margin-top: 8px;
   padding: 14px 35px 11px 10px;
   font-size: 1em;
-  border: 2px solid #333;
   border-radius: 5px;
   appearance: none;
   -webkit-appearance: none;
@@ -168,11 +150,9 @@ main {
 
 #new-category:focus {
   outline: none;
-  border-color: #007bff;
 }
 
 #new-category option {
-  background-color: #fff;
   color: #333;
 }
 
@@ -183,19 +163,10 @@ footer {
   left: 0;
   right: 0;
   flex-shrink: 0; /* Prevent footer from growing */
-  background-color: #000;
-  color: #fff;
   text-align: center;
   padding: 10px 0;
 }
 
-footer a {
-  color: #5f7fff;
-}
-
-footer a:hover {
-  color: #a0b2fd;
-}
 
 /* Styles for the overlay */
 .overlay {
@@ -218,7 +189,6 @@ footer a:hover {
   background: none;
   border: none;
   font-size: 30px;
-  color: white;
   cursor: pointer;
 }
 
@@ -229,8 +199,6 @@ footer a:hover {
   left: 10px;
   padding: 10px 20px;
   font-size: 16px;
-  background-color: #5f7fff;
-  color: white;
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -241,7 +209,6 @@ footer a:hover {
 #tutorial-button:hover {
   padding: 12px 22px;
   border-radius: 10px;
-  background-color: #465db6;
 }
 
 #tutorial-video {
@@ -274,8 +241,6 @@ footer a:hover {
     left: 0;
     right: 0;
     flex-shrink: 0; /* Prevent footer from growing */
-    background-color: #000;
-    color: #fff;
     text-align: center;
     padding: 10px 0;
   }
@@ -303,4 +268,37 @@ footer a:hover {
     box-shadow: 0 0 10px #5f7fff;
     text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff;
   }
+}
+
+
+/* Add styles for the tailwindcss */
+.head-logo--notification {
+  display: flex;
+  max-width: 24rem;
+  margin: 0 auto;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  background-color: #fff;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+.head-logo--notification-logo-wrapper {
+  flex-shrink: 0;
+}
+.head-logo--notification-logo {
+  height: 3rem;
+  width: 3rem;
+}
+.head-logo--notification-content {
+  margin-left: 1.5rem;
+  padding-top: 0.25rem;
+}
+.head-logo--notification-title {
+  color: #1a202c;
+  font-size: 1.25rem;
+  line-height: 1.25;
+}
+.head-logo--notification-message {
+  color: #718096;
+  font-size: 1rem;
+  line-height: 1.5;
 }
