@@ -1,0 +1,8 @@
+{
+    "name": "Pinned Links Manager | Manage Your Favorite Links",
+    "short_name": "Pinned Links",
+    "start_url": "./",
+    "display": "standalone",
+    "background_color": "#f0f0f0",
+    "theme_color": "#ff8181"
+  }

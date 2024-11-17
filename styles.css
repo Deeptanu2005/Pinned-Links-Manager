@@ -102,22 +102,11 @@ main {
   margin-right: 10px;
 }
 
-.link-item:hover {
-  background: #000000;
-  color: #fff;
-  transform: translateY(-5px);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-}
-
-.link-item:hover a {
-  color: #fff;
-  text-decoration: underline;
-  transition: all 0.3s ease;
-}
 
 .link-item a {
   color: black;
   text-decoration: none;
+  margin-right: 20px;
 }
 
 .favorite-button {
@@ -126,13 +115,6 @@ main {
   background: #ffcc00;
   border: none;
   cursor: pointer;
-}
-
-@media (max-width: 600px) {
-  .link-item {
-    width: 100%;
-    text-align: center;
-  }
 }
 
 #new-link:focus {
@@ -160,12 +142,6 @@ main {
   cursor: pointer;
 }
 
-#new-category:hover {
-  background: #fff url("images/Down\ Arrow.gif") no-repeat left 12px center;
-  background-size: 20px;
-  background-position-x: calc(100% - 15px);
-}
-
 #new-category:focus {
   outline: none;
   border-color: #007bff;
@@ -187,14 +163,11 @@ footer {
   color: #fff;
   text-align: center;
   padding: 10px 0;
+  box-shadow: 0 -10px 20px white;
 }
 
 footer a {
   color: #5f7fff;
-}
-
-footer a:hover {
-  color: #a0b2fd;
 }
 
 /* Styles for the overlay */
@@ -238,12 +211,6 @@ footer a:hover {
   transition: 0.3s ease;
 }
 
-#tutorial-button:hover {
-  padding: 12px 22px;
-  border-radius: 10px;
-  background-color: #465db6;
-}
-
 #tutorial-video {
   width: 70vw;
   height: calc(70vw * 9 / 16); /* Maintain 16:9 aspect ratio */
@@ -251,7 +218,70 @@ footer a:hover {
   max-height: 100%;
 }
 
+
+/* Add styles for glowing effect */
+.glow {
+  animation: glowing 1500ms infinite;
+}
+
+@keyframes glowing {
+  0% {
+    background-color: #000000;
+    box-shadow: 0 0 10px #5f7fff;
+    text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff;
+  }
+  50% {
+    background-color: #000000;
+    box-shadow: 0 0 20px #5386ff;
+    text-shadow: 0 0 10px #ffffff, 0 0 20px #ffffff;
+  }
+
+  100% {
+    background-color: #000000;
+    box-shadow: 0 0 10px #5f7fff;
+    text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff;
+  }
+}
+
+
+@media (hover: hover) {
+
+  .link-item:hover {
+    background: #000000;
+    color: #fff;
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .link-item:hover a {
+    color: #fff;
+    text-decoration: underline;
+    transition: all 0.3s ease;
+  }
+  
+  #new-category:hover {
+    background: #fff url("images/Down\ Arrow.gif") no-repeat left 12px center;
+    background-size: 20px;
+    background-position-x: calc(100% - 15px);
+  }
+  
+  footer a:hover {
+    color: #a0b2fd;
+  }
+
+  #tutorial-button:hover {
+    padding: 12px 22px;
+    border-radius: 10px;
+    background-color: #465db6;
+  }
+}
+
+
 @media (max-width: 600px) {
+  .link-item {
+    width: 100%;
+    text-align: center;
+  }
   #tutorial-button {
     font-size: 14px;
     padding: 8px 16px;
@@ -278,29 +308,5 @@ footer a:hover {
     color: #fff;
     text-align: center;
     padding: 10px 0;
-  }
-}
-
-/* Add styles for glowing effect */
-.glow {
-  animation: glowing 1500ms infinite;
-}
-
-@keyframes glowing {
-  0% {
-    background-color: #000000;
-    box-shadow: 0 0 10px #5f7fff;
-    text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff;
-  }
-  50% {
-    background-color: #000000;
-    box-shadow: 0 0 20px #5386ff;
-    text-shadow: 0 0 10px #ffffff, 0 0 20px #ffffff;
-  }
-
-  100% {
-    background-color: #000000;
-    box-shadow: 0 0 10px #5f7fff;
-    text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff;
   }
 }

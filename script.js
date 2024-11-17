@@ -75,7 +75,7 @@ function createLinkHTML(link) {
   const removeLinkButton = document.createElement("button");
 
   favoriteButton.classList.add("favorite-button");
-  favoriteButton.style.marginLeft = "10px";
+  favoriteButton.style.marginLeft = "auto";
 
   removeLinkButton.style.padding = "8px";
   removeLinkButton.style.backgroundColor = "transparent";
