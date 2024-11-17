@@ -5,6 +5,7 @@ body {
   margin: 0;
   padding: 0;
   min-height: 100%; /* Ensure body stretches to at least full height */
+  overflow-x: hidden;
 }
 
 .container {
@@ -306,7 +307,7 @@ footer a {
     flex-shrink: 0; /* Prevent footer from growing */
     background-color: #000;
     color: #fff;
-    text-align: center;
-    padding: 10px 0;
+    text-align: left;
+    padding: 10px;
   }
 }
